@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+@font-face {
+  font-family: "Bebas Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/bebasneue_bold-webfont.woff");
+}
+
+@font-face {
+  font-family: "Bebas Normal";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/bebasneue_regular-webfont.woff");
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+ul {
+  list-style: none;
+}
+
+.pt-80 {
+  padding-top: 80px;
+}
+
+.pb-80 {
+  padding-bottom: 80px;
+}
+
+.bg-gray {
+  background-color: #f2f2f2;
+}
+
+.bannae-area {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding: 210px 0 60px;
+}
+.banner h1 {
+  font-size: 95px;
+  font-family: "Bebas Bold";
+  color: #fff;
+}
+.banner h1 span {
+  color: #d25b38;
+}
+
+.header-area {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 0;
+}
+.menu ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+}
+.menu ul li a {
+  color: #fff;
+  display: block;
+  padding: 35px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.banner p {
+  color: #fff;
+}
+
+.box-btn {
+  display: inline-block;
+  background-color: #d25b38;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  padding: 15px 25px;
+  text-decoration: none;
+}
+.border-btn {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+  padding: 11px 25px;
+  text-decoration: none;
+  border: 3px solid #fff;
+}
+.banner a {
+  margin-right: 15px;
+  margin-top: 20px;
+}
+
+.single-service {
+  background-color: #fff;
+  text-align: center;
+  padding: 30px 20px;
+  margin-top: 30px;
+  border: 1px solid #eee;
+}
+.single-service img {
+  width: 40px;
+}
+.single-service h4 {
+  margin: 16px 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #d25b38;
+}
+
+.section-title {
+  display: flex;
+  height: 100%;
+  align-items: flex-end;
+  margin-bottom: -15px;
+}
+.section-title h4 {
+  font-size: 90px;
+  font-family: "Bebas Bold";
+  margin-bottom: -15px;
+  color: #454443;
+}
+.section-title h4 span {
+  display: block;
+  color: #d25b38;
+}
