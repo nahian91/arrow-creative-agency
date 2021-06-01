@@ -28,6 +28,9 @@ ul {
   list-style: none;
 }
 
+.pt-50 {
+  padding-top: 50px;
+}
 .pt-80 {
   padding-top: 80px;
 }
@@ -443,4 +446,152 @@ ul {
 .blog-area .col-md-6:nth-child(3),
 .blog-area .col-md-6:nth-child(4) {
   margin-top: 20px;
+}
+
+.cta-area {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  z-index: 2;
+  padding: 40px 0;
+}
+.cta-area:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #333;
+  opacity: 0.75;
+  z-index: -1;
+}
+.cta-area img {
+  margin-top: -100px;
+  margin-bottom: -80px;
+}
+.team-area {
+  padding-bottom: 80px;
+}
+.price-area {
+  padding-top: 150px;
+}
+.blog-area {
+  padding-bottom: 160px;
+}
+.cta-area h4 {
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Bebas Bold";
+  font-size: 70px;
+  margin-bottom: 0;
+}
+.cta-area p {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap;
+}
+.single-portfolio {
+  flex-basis: 322px;
+  min-height: 300px;
+  position: relative;
+  z-index: 2;
+  color: #fff;
+}
+.single-portfolio:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #333;
+  left: ;
+  opacity: 0.75;
+  z-index: -1;
+}
+.portfolio-content {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  transition: 0.3s;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.portfolio-content i {
+  font-size: 26px;
+}
+.portfolio-content h4 {
+  font-family: "Bebas BOld";
+  font-size: 36px;
+  margin-top: 10px;
+}
+.portfolio-content h4 span {
+  display: block;
+  font-size: 18px;
+}
+.single-portfolio:hover .portfolio-content {
+  opacity: 1;
+  visibility: visible;
+}
+.portfolio-area .section-title {
+  padding-bottom: 80px;
+}
+
+.counter-area {
+  position: relative;
+  z-index: 2;
+  background-size: cover;
+  background-position: center;
+}
+.counter-area:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: #333;
+  opacity: 0.75;
+  z-index: -1;
+}
+.counter-area .section-title h4 {
+  color: #fff;
+}
+
+.single-counter {
+  background-color: #fff;
+  padding: 26px;
+  margin-bottom: 36px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+}
+.single-counter i {
+  font-size: 24px;
+  background-color: tomato;
+  padding: 20px;
+  border-radius: 50%;
+  color: #fff;
+}
+.single-counter h4 {
+  font-family: "Bebas BOld";
+  font-size: 20px;
+  margin-left: 14px;
+}
+.single-counter h4 span {
+  display: block;
+  font-size: 50px;
+}
+.counter-area .section-title {
+  margin-top: -40px;
 }
